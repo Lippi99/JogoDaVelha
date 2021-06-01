@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1600px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/house-5626934_960_720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;  
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    color: orange;
+    text-align: center;
+}
+
+.stage{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 100px;
+    margin: 3px 2px;
+    height: 100px;
+    background-image: url('../images/purple-square.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+}
+
+.o::after{
+    content: "\1F9DB";
+    font-size: 50px;
+    line-height: 100px;
+    padding-left: 18px;
+    z-index: -999;
+}
+
+.x::after{
+    content: "\1F9DF";
+    font-size: 50px;
+    line-height: 100px;
+    padding-left: 18px;
+}
+
+.restart{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.restart button{
+    font-size: 21px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(168, 15, 168);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.restart button:hover{
+    background-color: rgb(112, 11, 112);
+}
+
+
+
